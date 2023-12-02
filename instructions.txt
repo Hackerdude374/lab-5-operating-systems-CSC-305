@@ -1,0 +1,16 @@
+
+In this lab you will write a program in c++ that will communicate between system processes to accomplish a task.
+NOTE: This lab will only work on linux as the unistd.h library is for linux system commands.
+The c library unistd.h needs to be included in order for the functions, "pipe", "fork", "read", "write", "close"
+Pipe documentation, http://man7.org/linux/man-pages/man2/pipe.2.html
+another example, using pipes and forks
+http://hzqtc.github.io/2012/07/linux-ipc-with-pipes.html
+References:
+unistd.h, "write" function documentation, http://man7.org/linux/man-pages/man2/write.2.html
+unistd.h "read" function documentation, http://man7.org/linux/man-pages/man2/read.2.html
+unistd.h "close" function documentation, http://man7.org/linux/man-pages/man2/close.2.html
+unistd.h "fork" function documentation, http://man7.org/linux/man-pages/man2/fork.2.html
+unistd.h "dup2" function documentation, https://man7.org/linux/man-pages/man2/dup.2.html
+LAB5_interprocessn-2(1).docx
+CSC305_lab5_lec1.docx
+
